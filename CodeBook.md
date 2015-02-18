@@ -1,7 +1,6 @@
-## Getting and Cleaning Data - Course Project
-### Code Book
+## Getting and Cleaning Data - Course Project - Code Book
 
-#Study Design
+##Study Design
 The data used is collected from the accelerometers of Samsung Galaxy S smartphones. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -9,7 +8,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here is the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-#The portion of the original data kept (std & mean cols)
+##The portion of the original data kept (std & mean cols)
 tBodyAcc-mean()-X (column 1)
 tBodyAcc-mean()-Y (column 2)
 tBodyAcc-mean()-Z (column 3)
@@ -76,3 +75,5 @@ fBodyBodyGyroMag-mean() (column 529)
 fBodyBodyGyroMag-std() (column 530)
 fBodyBodyGyroJerkMag-mean() (column 542)
 fBodyBodyGyroJerkMag-std() (column 543)
+
+
