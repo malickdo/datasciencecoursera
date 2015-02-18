@@ -9,9 +9,9 @@ Here is the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ##The portion of the original data kept (std & mean cols)
-tBodyAcc-mean()-X (column 1)
-tBodyAcc-mean()-Y (column 2)
-tBodyAcc-mean()-Z (column 3)
+tBodyAcc-mean()-X (column 1);
+tBodyAcc-mean()-Y (column 2).
+tBodyAcc-mean()-Z (column 3),
 tBodyAcc-std()-X (column 4)
 tBodyAcc-std()-Y (column 5)
 tBodyAcc-std()-Z (column 6)
@@ -72,8 +72,8 @@ fBodyAccMag-std() (column 504)
 fBodyBodyAccJerkMag-mean() (column 516)
 fBodyBodyAccJerkMag-std() (column 517)
 fBodyBodyGyroMag-mean() (column 529)
-fBodyBodyGyroMag-std() (column 530)
-fBodyBodyGyroJerkMag-mean() (column 542)
+fBodyBodyGyroMag-std() (column 530);
+fBodyBodyGyroJerkMag-mean() (column 542);
 fBodyBodyGyroJerkMag-std() (column 543)
 
 
