@@ -1,4 +1,3 @@
-
 # Download the data, unzip, delete zip file
 file.url <- 'https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip'
 file.dest <- 'power.consumption.zip'
@@ -24,15 +23,13 @@ rm(ElecPowerConsumption)
 datetime <- paste(as.Date(subset_EPC$Date), subset_EPC$Time)
 subset_EPC$date.time <- as.POSIXct(datetime)
 
-# Generate Plot
-png( 'plot1.png' )
-hist( subset_EPC$Global_active_power,
+# Generate Plot & Save to png file
+GAP <- as.numeric(subset_EPC$Global_active_power)
+png( "plot1.png", height=480, width=480)
+hist( GAP,
       col = "Red",
       main = "Global Active Power",
       xlab = "Global Active Power (kilowatts)",
       ylab = "Frequency"
 )
-
-# Save to file
-dev.copy(png, file="plot1.png", height=480, width=480)
 dev.off()
